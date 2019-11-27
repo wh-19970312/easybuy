@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#content .main .bread_nav {padding:20px 0 9px 33px;border-bottom:1px #cccccc solid; background:url(../images/bread_nav_img_03.jpg) no-repeat 10px 20px;}
+#content .main .bread_nav span {padding-left:306px;}
+#content .main .bread_nav span.p_name {padding:0;color:#615d5d;}
+
+#content .main .jieshao .left {float:left;width:384px;}
+#content .main .jieshao .left .chanpin {*height:370px;padding:15px 18px 19px 19px;border:1px #cccccc solid;border-top:none;}
+#content .main .jieshao .left .chanpin img_bank {padding-bottom:5px;} 
+#content .main .jieshao .left .chanpin .datu {width:346px; height:241px;}
+#content .main .jieshao .left .chanpin ul {padding:26px 0 0 78px;}
+#content .main .jieshao .left .chanpin ul li {float:left;width:71px;}
+#content .main .jieshao .left .chanpin ul li a {display:block;float:left;width:46px;border:1px #cccccc solid;}
+#content .main .jieshao .left .chanpin ul li a.addyangshi {border:1px #f0145c solid;}
+#content .main .jieshao  .left p.share {padding:5px 0 0 32px; background:url(../images/jieshao_img_20.jpg) no-repeat 10px 5px;}
+#content .main .jieshao  .left p.share img {padding-left:4px;} 
+#content .main .jieshao  .right {float:left;width:600px;}
+#content .main .jieshao  .right .chanpin_prices {float:left;width:307px;padding:24px 0 64px 58px;*padding-bottom:80px;}
+#content .main .jieshao  .right .chanpin_prices h1 {color:#232222;font-size:12px;}
+#content .main .jieshao  .right .chanpin_prices h3 {font-size:12px;color:#aaaaaa;padding-top:13px;font-weight:normal;}
+#content .main .jieshao  .right .chanpin_prices p {padding-top:21px;}
+#content .main .jieshao  .right .chanpin_prices p span {padding-left:45px;}
+#content .main .jieshao  .right .chanpin_prices p span.zhuangui {text-decoration:line-through;}
+#content .main .jieshao  .right .chanpin_prices p span.tong {color:#f0145c;font-weight:bold;}
+#content .main .jieshao  .right .chanpin_prices p span.jumeijia {font-size:16px;padding:0;}
+#content .main .jieshao  .right .chanpin_prices #frm {padding-left:80px;padding-top:20px;}
+#content .main .jieshao  .right .chanpin_prices #frm input {float:left;width:116px;height:26px; border:none;border:1px #cccccc solid;}
+#content .main .jieshao  .right .chanpin_prices #frm div {float:left;width:15px;}
+#content .main .jieshao  .right .chanpin_prices #frm button {height:14px;border:none;border:1px #cccccc solid;border-left:none;color:#615d5d;line-height:12px;}
+#content .main .jieshao  .right .chanpin_prices #frm button.jian {border:none;border-right:1px #cccccc solid;border-bottom:1px #cccccc solid;}
+#content .main .jieshao  .right .chanpin_prices #frm label {line-height:26px;padding-left:5px;}
+#content .main .jieshao  .right .chanpin_prices .anniu {padding-top:38px;}
+#content .main .jieshao  .right .chanpin_prices .anniu .goumai {padding-left:66px;}
+#content .main .jieshao  .right  .dian {float:right;width:118px; height:140px;margin-top:75px;padding-top:1px; background:#cccccc; text-align:center;}
+#content .main .jieshao  .right  .dian p {line-height:40px; background:url(../images/right_img_09.jpg) no-repeat 92px 14px;}
+#content .main .jieshao  .right  .dian p a:hover {color:#f0145c;}
+#content .main .jieshao  .right  .baozheng {clear:both;}
+#content .main .jieshao  .right  .baozheng dl {float:left;width:148px; background:#f2f2f2;margin:0 1px; }
+#content .main .jieshao  .right  .baozheng dl.yunfei {display:inline;}
+#content .main .jieshao  .right  .baozheng dl dt {float:left;width:33px;height:51px;background:url(../images/right_img_21.jpg) no-repeat left center;}
+#content .main .jieshao  .right  .baozheng dl dd {padding:8px 0 0 43px;}
+#content .main .jieshao  .right  ul li p {color:#787878;}
+#content .main .jieshao  .right  ul li p.biaoti {color:#232222;}
+
+#content .main  .bottom {clear:both;padding-top:20px;}
+#content .main .left_bottom {float:left;width:200px;}
+#content .main .left_bottom ul.guanggao li {padding-bottom:10px;}
+#content .main .left_bottom ul.guanggao a {display:block;}
+
+#content .main .left_bottom .hadbuy {border:1px #cccccc solid;}
+#content .main .left_bottom .hadsaw {margin-top:10px;}
+#content .main .left_bottom .hadbuy h2 {heightA:30px;line-height:30px; text-align:center;background:#f2f2f2;border-bottom:1px #cccccc solid; font-size:12px; font-weight:normal;}
+#content .main .left_bottom .hadbuy ul {padding-left:16px;}
+#content .main .left_bottom .hadbuy ul li {width:150px;margin-bottom:15px;padding:8px 8px 0 8px;}
+#content .main .left_bottom .hadbuy ul li.h_yangshi {background:#f2f2f2;}
+#content .main .left_bottom .hadbuy ul li img {border:1px #f2f2f2 solid;}
+#content .main .left_bottom .hadbuy ul li h3 {color:#f0145c;font-size:16px;padding-top:6px;}
+#content .main .left_bottom .hadbuy ul li h3 span {font-size:12px;}
+#content .main .left_bottom .hadbuy ul li h4 { font-size:12px; font-weight:normal;padding-top:10px;}
+#content .main .left_bottom .hadbuy ul li p {color:#aaaaaa;padding:7px 0 7px;}
+#content .main .left_bottom .hadbuy ul li p span {color:#f0145c;}
+
+#content .main .left_bottom .hadbuy .anniu {width:168px;margin-left:16px;border-top:1px #f2f2f2 solid;padding:8px 0 7px; text-align:center;}
+#content .main .left_bottom .hadbuy .anniu button {width:100px;height:24px;padding-right:25px;padding-bottom:6px;border:none; background:none; background:url(../images/hadbuy_button_bg_26.jpg) no-repeat;font-size:12px;color:#787878; cursor:pointer;}
+#content .main .right_bottom {float:right;width:750px;}
+#content .main .right_bottom ul.top_nav {padding-left:20px;background:#f2f2f2;border:1px #dedede solid; border-top:2px #f0145c solid;*height:42px;}
+#content .main .right_bottom ul.top_nav li {float:left;padding-right:30px;line-height:42px;}
+#content .main .right_bottom ul.top_nav li.qian {padding:0;padding-left:150px; font-size:14px; font-weight:bold;color:#f0145c;}
+#content .main .right_bottom ul.top_nav li.qian span {font-size:10px;}
+#content .main .right_bottom ul.top_nav li.btn {padding:0;padding-left:4px;}
+#content .main .right_bottom ul.top_nav li.btn button {border:none;width:46px; height:19px;background:url(../images/goumai_btn_07.jpg) no-repeat center;}
+#content .main .right_bottom ul.top_nav li a:hover {color:#f0145c;}
+#content .main .right_bottom .miaoshu {clear:both;width:588px; margin:0 auto; padding-top:20px;}
+#content .main .right_bottom .miaoshu h2 {height:30px; background:url(../images/top_nav_03.jpg) no-repeat;line-height:30px;padding-left:11px;color:#FFF; font-size:12px;}
+#content .main .right_bottom .miaoshu ul {height:123px;margin-top:10px;border:1px #cccccc solid; border-bottom:none;}
+#content .main .right_bottom .miaoshu ul li {float:left;line-height:30px;width:200px; padding-left:10px; border-right:1px #cccccc solid; border-bottom:1px #cccccc solid;}
+#content .main .right_bottom .miaoshu ul li.timu {width:75px;text-align:center;padding:0; border-right:1px #cccccc solid;}
+#content .main .right_bottom .miaoshu ul li.jieshi {width:480px; padding-left:10px; border:none;border-bottom:1px #cccccc solid;}
+#content .main .right_bottom .miaoshu ul li.age {width:213px; border:none;border-bottom:1px #cccccc solid;}
+#content .main .right_bottom .miaoshu ul li.dixian {width:500px;}
+#content .main .right_bottom .img_zhanshi {clear:both; text-align:center;padding-top:80px;}
+#content .main .right_bottom .img_zhanshi img {padding-bottom:30px;}
+#content .main .right_bottom .commit {margin-top:30px;}
+#content .main .right_bottom .commit ul.c_nav {background:#f2f2f2;border-bottom:2px #f0145c solid;}
+#content .main .right_bottom .commit ul.c_nav li {float:left;}
+#content .main .right_bottom .commit ul.c_nav li a {display:block;float:left;height:34px;padding:0 19px;font-size:16px;line-height:34px;}
+#content .main .right_bottom .commit ul.c_nav li a.all {background:#f0145c;color:#FFF;}
+#content .main .right_bottom .commit ul.c_nav li a:hover {color:#FFF;background:#f0145c;}
+#content .main .right_bottom .commit .fenlei {padding:20px 0 20px 3px;border:1px #cccccc solid;border-top:none;}
+#content .main .right_bottom .commit .fenlei p {line-height:2em;}
+#content .main .right_bottom .commit .fenlei p span {color:#cccccc;}
+#content .main .right_bottom .commit .fenlei p a {padding:3px;margin:0 5px;}
+#content .main .right_bottom .commit .fenlei p a.all {background:#f0145c;}
+#content .main .right_bottom .commit .fenlei p a:hover {background:#f0145c;}
+#content .main .right_bottom .commit .c_info {padding:20px 39px 40px;}
+#content .main .right_bottom .commit .c_info .u_info {width:200px;float:left;}
+#content .main .right_bottom .commit .c_info .u_info h5 {color:#f0145c;width:120px;text-align:center;line-height:2em;}
+#content .main .right_bottom .commit .c_info .u_info ul {margin:4px 0;}
+#content .main .right_bottom .commit .c_info .u_info ul li {text-align:left;color:#000;}
+#content .main .right_bottom .commit .c_info .u_info ul li span,#content .main .right_bottom .commit .c_info .u_info p {color:#cccccc;}
+#content .main .right_bottom .commit .c_info .u_info p span {color:#f0145c;}
+#content .main .right_bottom .commit .c_info .u_liuyan {float:left;width:470px;background:#f2f2f2;}
+#content .main .right_bottom .commit .c_info .u_liuyan h2 {background:url(images/commit_touxiang_25.jpg) no-repeat 21px center;line-height:64px;color:#000;font-size:14px;padding-left:53px;}
+#content .main .right_bottom .commit .c_info .u_liuyan h2 span {background:}
+

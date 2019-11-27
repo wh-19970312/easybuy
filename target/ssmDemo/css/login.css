@@ -1,0 +1,25 @@
+@charset "gb2312";
+/* CSS Document */
+.div1{
+/*本层要实现覆盖模式窗口以外全部内容的半透明效果*/
+background-color:#000000;/*背景色*/
+position: absolute ;/*绝对定位，必选，使层绝对依照top,left的标准显示，否则将不能实现覆盖*/
+top:0;/*层与页面顶部距离*/
+left:0;/*层与左侧边距离*/
+z-index:6000;/*当发生重叠时的优先级，数大的会覆盖数较小的，没进行设置的均可视为小于0*/
+display:none; /*层是否可见，初始化none不可见*/
+filter:Alpha(opacity=50);/*过滤颜色，设置透明度（可见度）30，数越小越透明*/
+}  
+
+/*层2的样式*/
+.div2{
+/*本层显示在最前端，其它控件均不可用*/
+width:300px;/*显示宽度*/
+height:200px;/*显示高度*/
+position:absolute;/*绝对定位*/
+z-index:8000;/*优先级*/
+display: none;/*是否显示*/
+border:3px inset blue; /*边框：宽度，样式，颜色*/
+background-color:#9999CC;/*背景色*/
+}
+/*当然你可以自定义添加或更改更多的样式都无所谓*/
