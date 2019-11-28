@@ -13,6 +13,9 @@
     <result column="fileName" jdbcType="VARCHAR" property="filename" />
     <result column="isDelete" jdbcType="INTEGER" property="isdelete" />
   </resultMap>
+  <select id="selectBylevalId" resultMap="BaseResultMap" parameterType="Integer">
+    select * from easybuy_product where categoryLevel3Id=#{id};
+  </select>
   <sql id="Base_Column_List">
     id, name, description, price, stock, categoryLevel1Id, categoryLevel2Id, categoryLevel3Id, 
     fileName, isDelete

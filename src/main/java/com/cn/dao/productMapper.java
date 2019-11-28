@@ -2,6 +2,8 @@ package com.cn.dao;
 
 import com.cn.domain.product;
 
+import java.util.List;
+
 public interface productMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -10,6 +12,8 @@ public interface productMapper {
     int insertSelective(product record);
 
     product selectByPrimaryKey(Integer id);
+
+    List<product> selectBylevalId(Integer id);
 
     int updateByPrimaryKeySelective(product record);
 

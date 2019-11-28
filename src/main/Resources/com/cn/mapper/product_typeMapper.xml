@@ -4,6 +4,8 @@
   <resultMap id="BaseResultMap" type="com.cn.domain.product_type">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+    <collection property="productCategories" ofType="product_category" select="com.cn.dao.product_categoryMapper.selectByType" column="id">
+    </collection>
   </resultMap>
   <sql id="Base_Column_List">
     id, type_name

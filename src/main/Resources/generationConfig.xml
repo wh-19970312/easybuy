@@ -39,7 +39,7 @@
         <javaClientGenerator targetPackage="com.cn.dao" targetProject="src/main/java" type="XMLMAPPER">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
-        <table tableName="easybuy_product_type" domainObjectName="product_type"
+        <table tableName="easybuy_product_category" domainObjectName="product_category"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
