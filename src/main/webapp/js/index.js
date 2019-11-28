@@ -4,17 +4,17 @@ function leftScroll(){
 	var stop=false;
 	setInterval(function(){
 		if(stop) return;
-		$(".float_title").find("li").first().animate({"margin-top":marginLeft--},0,function(){
+		$(".float_li").find("li").first().animate({"margin-top":marginLeft--},0,function(){
 			var $first=$(this);
 			if(!$first.is(":animated")){
-				if((-marginLeft)>$first.height()+0+0){ //1£ºÊÇ×ó±ß¿òµÄ´ÖÏ¸ 18£º×óÓÒÁ½±ßµÄÌî³ä
-					$first.css({"margin-top":0}).appendTo($(".float_title ul"));
+				if((-marginLeft)>$first.height()){ //1£ºÊÇ×ó±ß¿òµÄ´ÖÏ¸ 18£º×óÓÒÁ½±ßµÄÌî³ä
+					$first.css({"margin-top":0}).appendTo($(".float_li ul"));
 					marginLeft=0;
 				}
 			}
 		});
-	},30);
-	$(".float_title ul").mouseover(function(){
+	},40);
+	$(".right_float ul").mouseover(function(){
 		stop=true;
 	}).mouseout(function(){
 		stop=false;
@@ -26,7 +26,7 @@ function slide(){
 		$(data).each(
 			function () {
 				var a="<li><span class='icon-caret-right'></span><a href=''>"+ this.title+"</a></li>";
-				$(".float_title ul").append(a);
+				$(".float_li ul").append(a);
 			}
 		)
 	}

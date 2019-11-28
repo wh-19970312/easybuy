@@ -6,552 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c59b21ef-cd9d-4bff-bea7-fce4fd799295" name="Default Changelist" comment="easyBuy">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/776cf37f-b4d1-49ed-9b15-3a71754929b7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/newsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/orderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/order_detailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/resultMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/user_addressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-transfer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/spring/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/order_detailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/resultMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/user_addressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/news.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/order_detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/user_address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/newService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/utils/DateConverters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jieshao.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jqzoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/nivo-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/p_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/11111111111_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product-introduction_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img2_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/banner_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bread_nav_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bullets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/caidan_hover_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ci_nav_67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/commit_touxiang_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/commit_touxiang_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/datu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/datu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ddtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ddtu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ddtu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dian_hover_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/footer_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/goumai_btn_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gouwuche_hover_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gouwuche_hover_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/guanggao_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_button_bg_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadbuy_img_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadsaw_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadsaw_img30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hadsaw_img_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/header_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/header_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/header_img_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img_nav_sanjiao_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/img——zhanshi_53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/index_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/index_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jieshao_img_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/linggulu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/linggulu.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/linggulu_hover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/linggulu_hover.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo_btn_bg_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mei_hover_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nav_bg_13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qibuqu_hover_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qq-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/remen_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right_img_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/select_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/share_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sina-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tehui_img_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_img_12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_nav_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/touxiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xinpi_img_59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xinpi_img_62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xinpi_img_65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xinpi_img_68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xinpin_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhanshi_img_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhanshi_img_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhanshi_img_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhanshi_img_48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zhanshi_img_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DD_belatedPNG_0.0.8a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/home.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jieshao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.7.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.nivo.slider.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cn/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/controller/newsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/newsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/orderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/order_detailMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/productMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/resultMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/userMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/user_addressMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/news.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/order_detail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/user.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/user_address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/intercepter/filter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/newsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/orderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/order_detailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/productMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/resultMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/user_addressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/services/Impl/newServicesImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/services/newService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/spring/applicationContext-transfer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/spring/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cn/utils/DateConverters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generationConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/controller/newsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/newsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/orderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/order_detailMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/productMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/resultMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/userMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/user_addressMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/news.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/order_detail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/user.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/user_address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/intercepter/filter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/newsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/orderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/order_detailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/productMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/resultMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/user_addressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/Impl/newServicesImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/newService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/spring/applicationContext-transfer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/spring/springmvc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/utils/DateConverters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/generationConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/ant-1.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/ant-launcher-1.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/asm-3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/cglib-3.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/ckeditor-java-core-3.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/commons-io-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/hibernate-validator-6.0.4.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jackson-core-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jackson-databind-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/javax.mail-api-1.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jsp-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/pagehelper-5.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/slf4j-log4j12-1.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-aop-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-beans-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-context-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-core-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-expression-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-jcl-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-jdbc-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-tx-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-web-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/spring-webmvc-5.1.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/lib/validation-api-2.0.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/jieshao.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/jqzoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/nivo-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/p_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/pintuer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/11111111111_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/Product-introduction_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img2_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/banner_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/bg_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/bread_nav_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/bullets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/caidan_hover_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/ci_nav_67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/commit_touxiang_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/commit_touxiang_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/datu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/datu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/ddtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/ddtu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/ddtu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/dian_hover_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/footer_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/goumai_btn_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/gouwuche_hover_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/gouwuche_hover_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/guanggao_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_button_bg_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadbuy_img_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadsaw_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadsaw_img30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/hadsaw_img_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/header_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/header_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/header_img_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img_nav_sanjiao_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/img——zhanshi_53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/index_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/index_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/jieshao_img_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/linggulu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/linggulu.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/linggulu_hover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/linggulu_hover.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/list_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/list_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/list_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/list_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/list_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/logo_btn_bg_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/mei_hover_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/nav_bg_13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qibuqu_hover_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/qq-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/remen_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/right_img_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/select_img_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/share_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/sina-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/tehui_img_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/top_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/top_img_12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/top_nav_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/touxiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/xinpi_img_59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/xinpi_img_62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/xinpi_img_65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/xinpi_img_68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/xinpin_img_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/zhanshi_img_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/zhanshi_img_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/zhanshi_img_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/zhanshi_img_48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/images/zhanshi_img_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/DD_belatedPNG_0.0.8a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/home.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/jieshao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/jquery-1.7.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/jquery.nivo.slider.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssmDemo/js/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cn/Generator.class" afterDir="false" />
+    <list default="true" id="c59b21ef-cd9d-4bff-bea7-fce4fd799295" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -608,26 +73,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="99">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/news.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="95">
+              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="132">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/generationConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_product_category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="c6aa328f-fbd4-4dcd-938f-ff2c6b05e94a">
+              <filtering />
             </state>
           </provider>
         </entry>
@@ -637,15 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2871">
               <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="48" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -667,7 +150,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/cn/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/Resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -677,10 +159,11 @@
         <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/newsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/public.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" />
       </list>
     </option>
   </component>
@@ -710,13 +193,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="35" />
@@ -734,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -743,10 +217,67 @@
               <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -756,7 +287,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -765,7 +296,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -774,8 +305,8 @@
       <recent name="com.cn" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\css" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp" />
+      <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\css" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\Resources\com\cn" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\Resources" />
     </key>
@@ -792,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.211">
+  <component name="RunManager" selected="Application.Generator">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cn.Generator" />
       <module name="ssmDemo" />
@@ -904,17 +435,44 @@
       <workItem from="1574757829779" duration="3829000" />
       <workItem from="1574813622254" duration="1377000" />
       <workItem from="1574815654684" duration="7666000" />
-      <workItem from="1574835036851" duration="2511000" />
+      <workItem from="1574835036851" duration="6614000" />
+      <workItem from="1574842932682" duration="4285000" />
+      <workItem from="1574902465645" duration="1615000" />
     </task>
+    <task id="LOCAL-00001" summary="easyBuy">
+      <created>1574838596486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574838596486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2">
+      <created>1574842755857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574842755857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19426000" />
+    <option name="totallyTimeSpent" value="29429000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -922,11 +480,11 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7774524" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21554253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.55051243" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -942,7 +500,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.10991957" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.20241287" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.02010724" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
     </layout>
@@ -984,7 +542,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="easyBuy" />
-    <option name="LAST_COMMIT_MESSAGE" value="easyBuy" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/Resources/log4j.properties">
@@ -994,22 +553,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5dd1ff64-7477-4dec-b92c-9707af0be471/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_news">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="0c720d1e-726e-470e-8392-9d5b45e157d4">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/776cf37f-b4d1-49ed-9b15-3a71754929b7/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/text.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -1055,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/generationConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="83" column="58" selection-start-line="83" selection-start-column="58" selection-end-line="83" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/nav_bg_13.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1079,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/pintuer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="157" column="408" selection-start-line="157" selection-start-column="408" selection-end-line="157" selection-end-column="408" />
         </state>
       </provider>
     </entry>
@@ -1122,18 +655,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mybatis/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_product_category">
+    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_product" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/news.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/pintuer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="157" column="408" selection-start-line="157" selection-start-column="408" selection-end-line="157" selection-end-column="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_order">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4baadd34-b8eb-4f05-a797-2377779b468b">
+        <state projectRestartId="944aaf62-ee2c-4654-a427-76d5f93025c5">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_product">
+    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_order_detail">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="4baadd34-b8eb-4f05-a797-2377779b468b">
+        <state projectRestartId="944aaf62-ee2c-4654-a427-76d5f93025c5">
           <filtering>
             <filter text="" />
           </filtering>
@@ -1147,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/news.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2871">
@@ -1168,17 +702,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_product_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c6aa328f-fbd4-4dcd-938f-ff2c6b05e94a">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://776cf37f-b4d1-49ed-9b15-3a71754929b7/schema/easybuy/table/easybuy_news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c6aa328f-fbd4-4dcd-938f-ff2c6b05e94a">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="48" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/generationConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="78" selection-end-line="41" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="95">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>

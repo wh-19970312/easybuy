@@ -47,18 +47,23 @@ ul { list-style:none;}
 #nav .nav_inner ul li.mall div.mei_hover .yifu {float:left; padding-top:20px;}
 
 
-#content .main { background:#FFF;padding-top: -100px;}
+/*#content {background:#f4ead4; }*/
+#content .main { background:#FFF; padding-top: -100px;}
 #content .right_float{ position: absolute;border: 1px solid black;background: #FFFFFF; width: 230px;right: 0px;}
-#content .right_float .float_title{width: 100%; background: whitesmoke; height: 7%;}
+#content .right_float .float_title{width: 100%; height: 7%;background: whitesmoke; }
 #content .right_float .float_title p{ font-size: 18px;font-weight: bolder;margin-left: 30%;color: #1c1c1c;padding-top: 5px;}
-#content .right_float .float_title  ul li{list-style-type: none;font-size: 15px;font-family: 新宋体; }
+/*#content .right_float .float_title ul {display:none; border-top:1px solid #b5cfd9; padding:5px 0; opacity:1;}*/
+#content .float_li ul li{ list-style-type:none;margin-top: 10px; font-size: 15px;font-family: '华文行楷'; font-weight: bolder;}
+/*#content .right_float .float_title ul li a{  display:block;padding-left:30px;line-height:30px; }*/
+#content .float_li  ul li span{ margin-right:8px;}
+#content .float_li{padding-top: 10px; }
+    /*#content .right_float .float_title ul li a:hover,#content .right_float .float_title ul li a.on{ color:#09c;}*/
 
 #content .left_float{ position: absolute;border: none; width: 230px;left: 0px;padding-top: 30px;}
-#content .left_float .shop{width: 100%;border: none; background: yellow;margin-left: 5%;}
-#content .left_float .shop p{margin-left: 10%; font-size: 18px;color: #f0145c;}
-#content .left_float .recent{width: 100%;border: none; background: yellow;margin-left: 5%;margin-top: 10px;}
-#content .left_float .recent p{margin-left: 10%; font-size: 18px;color: #f0145c;}
-
+#content .left_float .shop{width: 100%;border: none; margin-left: 5%;}
+#content .left_float .shop .shop_title input{ border: none;background: yellow;width: 100%;font-size: 18px;color: #f0145c; }
+#content .left_float .recent{width: 100%; margin-left: 5%;margin-top: 10px;}
+#content .left_float .recent .recent_title input{ border: none;background: yellow;width: 100%;font-size: 18px;color: #f0145c;}
 #footer {clear:both;}
 
 #footer {height:360px; background:#000;}

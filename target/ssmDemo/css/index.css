@@ -66,23 +66,23 @@ margin:-210px 0 0 -200px;
 #content .main h1.qu {padding-left:37px; *padding-left:0px;}
 #content .main h1.qu a {float:right;display:block;*margin-top:-28px;line-height:14px; width:37px; font-size:12px; color:#FFF; font-weight:normal; background:#2b2220;}
 #content .main h1.qu a:hover { background:#f0145c;}
-/*#content .main .preferential ul {margin-top:20px;}*/
-/*#content .main .preferential ul li {float:left; width:222px;height:281px;}*/
-/*#content .main .preferential ul li.teshu {padding-right:24px;}*/
-/*#content .main .preferential ul li img {float:left;}*/
-/*#content .main .preferential ul li.fangchengshi {width:714px;height:540px;padding-right:24px;}*/
-/*#content .main .preferential ul li div {clear:both;padding:8px 0 10px 10px;background:#e3e0e0; *padding-top:4px;}*/
-/*#content .main .preferential ul li.ie6 div {*padding:4px 0 3px 10px; *overfloaw:hidden;}*/
-/*#content .main .preferential ul li div h4 {font-weight:normal; font-size:14px; color:#1c1c1c;}*/
-/*#content .main .preferential ul li div p {color:#f0145c;}*/
-/*#content .main .preferential ul li div p span {padding-right:10px; font-size:18px; font-weight:bold;}*/
-/*#content .main .preferential ul li div p span.guoqu_price {padding-right:78px;color:#9a9797; font-size:12px; text-decoration:line-through;}*/
-/*#content .main .preferential ul li div p a {padding:5px 6px; background:#f0145c; color:#FFF;}*/
-/*#content .main .preferential ul li div p a:hover {color:#000;}*/
+#content .main .preferential ul {margin-top:20px;}
+#content .main .preferential ul li {float:left; width:222px;height:281px;}
+#content .main .preferential ul li.teshu {padding-right:24px;}
+#content .main .preferential ul li img {float:left;}
+#content .main .preferential ul li.fangchengshi {width:714px;height:540px;padding-right:24px;}
+#content .main .preferential ul li div {clear:both;padding:8px 0 10px 10px;background:#e3e0e0; *padding-top:4px;}
+#content .main .preferential ul li.ie6 div {*padding:4px 0 3px 10px; *overfloaw:hidden;}
+#content .main .preferential ul li div h4 {font-weight:normal; font-size:14px; color:#1c1c1c;}
+#content .main .preferential ul li div p {color:#f0145c;}
+#content .main .preferential ul li div p span {padding-right:10px; font-size:18px; font-weight:bold;}
+#content .main .preferential ul li div p span.guoqu_price {padding-right:78px;color:#9a9797; font-size:12px; text-decoration:line-through;}
+#content .main .preferential ul li div p a {padding:5px 6px; background:#f0145c; color:#FFF;}
+#content .main .preferential ul li div p a:hover {color:#000;}
 
-/*#content .main .new {clear:both;padding-top:40px; padding-bottom:20px;*padding-top:20px;}*/
-/*#content .main .new ul {padding-top:15px;}*/
-/*#content .main .new ul li {float:left; width:189px;padding-right:68px;padding-top:5px;}*/
-/*#content .main .new ul li.n_four {padding-right:0;}*/
-/*#content .main .new ul li.l_hover { background:url(../images/xinpin_img_03.jpg) no-repeat left top;}*/
+#content .main .new {clear:both;padding-top:40px; padding-bottom:20px;*padding-top:20px;}
+#content .main .new ul {padding-top:15px;}
+#content .main .new ul li {float:left; width:189px;padding-right:68px;padding-top:5px;}
+#content .main .new ul li.n_four {padding-right:0;}
+#content .main .new ul li.l_hover { background:url(../images/xinpin_img_03.jpg) no-repeat left top;}
 
