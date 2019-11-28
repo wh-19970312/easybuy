@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c59b21ef-cd9d-4bff-bea7-fce4fd799295" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmDemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmDemo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmDemo/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/css/public.css" afterDir="false" />
@@ -89,12 +85,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_typeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -234,6 +226,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +456,7 @@
       <workItem from="1574815654684" duration="7666000" />
       <workItem from="1574835036851" duration="6614000" />
       <workItem from="1574842932682" duration="4285000" />
-      <workItem from="1574902465645" duration="1615000" />
+      <workItem from="1574902465645" duration="1897000" />
     </task>
     <task id="LOCAL-00001" summary="easyBuy">
       <created>1574838596486</created>
@@ -453,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574842755857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="product_type">
+      <created>1574904318788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574904318789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29429000" />
+    <option name="totallyTimeSpent" value="29711000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -470,7 +496,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -543,7 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="easyBuy" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="product_type" />
+    <option name="LAST_COMMIT_MESSAGE" value="product_type" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/Resources/log4j.properties">
@@ -737,6 +763,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -744,12 +777,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_typeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
