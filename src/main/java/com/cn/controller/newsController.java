@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping(value = "news")
+@RequestMapping(value = "/news")
 public class newsController  {
     @Autowired
     newService service;
     @ResponseBody
-    @RequestMapping(value = "findNews")
+    @RequestMapping(value = "/findNews")
     public String findAllNews(){
         List<news> news = service.allNews();
         String json = JSON.toJSONString(news);

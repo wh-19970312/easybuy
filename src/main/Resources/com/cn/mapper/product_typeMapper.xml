@@ -7,6 +7,9 @@
     <collection property="productCategories" ofType="product_category" select="com.cn.dao.product_categoryMapper.selectByType" column="id">
     </collection>
   </resultMap>
+  <select id="findType" resultMap="BaseResultMap">
+    select  * from easybuy_product_type where 1=1;
+  </select>
   <sql id="Base_Column_List">
     id, type_name
   </sql>

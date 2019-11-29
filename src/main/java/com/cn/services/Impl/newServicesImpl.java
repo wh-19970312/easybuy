@@ -2,8 +2,10 @@ package com.cn.services.Impl;
 
 import com.cn.dao.newsMapper;
 import com.cn.domain.news;
+import com.cn.services.ProductService;
 import com.cn.services.newService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

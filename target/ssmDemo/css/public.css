@@ -60,11 +60,23 @@ ul { list-style:none;}
     /*#content .right_float .float_title ul li a:hover,#content .right_float .float_title ul li a.on{ color:#09c;}*/
 
 #content .left_float{ position: absolute;border: none; width: 230px;left: 0px;padding-top: 30px;}
-#content .left_float .shop{width: 100%;border: none; background: yellow;margin-left: 5%;}
-#content .left_float .shop p{margin-left: 10%; font-size: 18px;color: #f0145c;}
-#content .left_float .recent{width: 100%;border: none; background: yellow;margin-left: 5%;margin-top: 10px;}
-#content .left_float .recent p{margin-left: 10%; font-size: 18px;color: #f0145c;}
+#content .left_float .shop{width: 100%; margin-left: 5%; border :1px solid black;}
+#content .left_float .shop .shop_body{padding-top: 0px; width: 100%;}
+#content .left_float .shop .shop_body h2{ padding:0px 0 10px 80px; transition:all .1s ease-in-out; display:block; cursor:pointer; font-weight:bold; font-size:14px; border-top:1px solid #b5cfd9;}
+#content .left_float .shop .shop_body h2.on{ color:#09c;}
+#content .left_float .shop .shop_body .border-bottom{ border-bottom:1px solid #b5cfd9;}
+#content .left_float .shop .shop_body h2 span{ margin-right:10px;}
+#content .left_float .shop .shop_body h2:hover{ color:#09c;}
+#content .left_float .shop .shop_body ul { border-top:1px solid #b5cfd9; padding:5px 0; opacity:1;}
+#content .left_float .shop .shop_body ul li{ list-style-type:none; font-size: 15px;  }
+/*#content .left_float .shop .shop_body ul li a{  display:block;padding-left:30px;line-height:30px; }*/
+#content .left_float .shop .shop_body ul li span{ margin-left:28px;}
+/*#content .left_float .shop .shop_body ul li a:hover,.leftnav ul li a.on{ color:#09c;}*/
 
+
+#content .left_float .shop .shop_title input{ border: none;background: yellow;width: 100%;font-size: 18px;color: #f0145c; }
+#content .left_float .recent{width: 100%; margin-left: 5%;margin-top: 10px;}
+#content .left_float .recent .recent_title input{ border: none;background: yellow;width: 100%;font-size: 18px;color: #f0145c;}
 #footer {clear:both;}
 
 #footer {height:360px; background:#000;}

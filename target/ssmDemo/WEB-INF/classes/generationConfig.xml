@@ -39,56 +39,13 @@
         <javaClientGenerator targetPackage="com.cn.dao" targetProject="src/main/java" type="XMLMAPPER">
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
-        <table tableName="easybuy_news" domainObjectName="news"
+        <table tableName="easybuy_product_category" domainObjectName="product_category"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
                selectByExampleQueryId="false"
         ></table>
-        <table tableName="easybuy_order" domainObjectName="order"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-        <table tableName="easybuy_order_detail" domainObjectName="order_detail"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-        <table tableName="easybuy_product" domainObjectName="product"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-        <table tableName="easybuy_user" domainObjectName="user"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-        <table tableName="easybuy_user_address" domainObjectName="user_address"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-        <table tableName="result" domainObjectName="result"
-               enableCountByExample="false"
-               enableUpdateByExample="false"
-               enableDeleteByExample="false"
-               enableSelectByExample="false"
-               selectByExampleQueryId="false"
-        ></table>
-
 
     </context>
 </generatorConfiguration>
