@@ -42,5 +42,14 @@ public class productTypeController {
         return json;
     }
 
+    @ResponseBody
+    @RequestMapping(value = "/detail")
+    public String selectProductById(@RequestParam(required = false) Integer id ){
+        product product = service.selectById(id);
+        String json = JSON.toJSONString(product);
+        return json;
+    }
+
+
 
 }

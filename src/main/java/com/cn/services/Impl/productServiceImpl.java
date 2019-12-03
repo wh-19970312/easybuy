@@ -31,4 +31,9 @@ public class productServiceImpl implements ProductService {
     public List<com.cn.domain.product> selectAll() {
         return product.selectByAll();
     }
+
+    @Override
+    public com.cn.domain.product selectById(Integer id) {
+        return product.selectByPrimaryKey(id);
+    }
 }

@@ -9,4 +9,5 @@ public interface ProductService {
     List<product_type> findAll();
     List<product> selectProduct(Integer id);
     List<product> selectAll();
+    product selectById(Integer id);
 }

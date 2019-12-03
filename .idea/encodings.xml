@@ -2,8 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/layout.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/detail.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/jgwc.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/js.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/detail.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/js/index.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/js/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom1.0.1.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/jqzoom.pack.1.0.1.js" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
