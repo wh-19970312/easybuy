@@ -1,0 +1,46 @@
+.pagination{
+    font: 12px/1.5 'Microsoft YaHei','Arial';
+    color: #333;
+}
+.pagination:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.pagination ul{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+.pagination li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.pagination a{
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #09c;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+}
+.pagination li>a{
+    margin: 0;
+}
+.pagination .page-current,
+.pagination .page-current a,
+.pagination .ellipsis,
+.pagination .ellipsis a{
+    cursor: default;
+}
+
+.pagination .page-current,
+.pagination .page-current a{
+    background: whitesmoke;
+}

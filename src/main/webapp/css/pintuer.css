@@ -659,7 +659,8 @@ textarea.input{height:auto;}
 .list-media{list-style:none;padding:0;}
 .list-media li{margin-bottom:10px;}
 .list-media.list-underline li{padding-bottom:15px;border-bottom:solid 1px #ddd;line-height:inherit;}
-.pagination{list-style:none;margin:0;padding:0;display:inline-block;vertical-align:bottom;}
+.pagination{list-style:none;margin:0;padding:0;display:inline-block;vertical-align:bottom;position: absolute;
+    left: 500px;top: 750px;}
 .pagination li{display:inline-block;border:solid 1px #ddd;border-radius:4px;}
 .pagination a{color:#333;padding:8px 12px;line-height:18px;display:block;transition:all 1s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;}
 .pagination .disabled a:link, .pagination .disabled a:visited, .pagination .disabled a:hover{cursor:not-allowed;pointer-events:none;color:#ddd;}

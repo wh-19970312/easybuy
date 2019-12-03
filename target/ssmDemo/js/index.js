@@ -1,4 +1,7 @@
 // JavaScript Document
+
+//新闻
+var Pagesize;
 function leftScroll() {
     var marginLeft = 0;
     var stop = false;
@@ -13,17 +16,16 @@ function leftScroll() {
                 }
             }
         });
-    }, 40);
+    }, 80);
     $(".right_float ul").mouseover(function () {
         stop = true;
     }).mouseout(function () {
         stop = false;
     });
 }
-
+//新闻的滑动
 function slide() {
     $.getJSON("news/findNews.do", callback);
-
     function callback(data) {
         $(data).each(
             function () {
@@ -31,6 +33,36 @@ function slide() {
                 $(".float_li ul").append(a);
             }
         )
+    }
+
+}
+function SelectProdutById(index,id) {
+    $.ajaxSettings.async = false;
+    $.getJSON("productType/leval3.do","id="+id,callback);
+    function callback(data) {
+        $(".preferential ul").remove();
+        var ul='<ul>';
+        var size=0;
+        for (var j in data) {
+            size++;
+        }
+        Pagesize=size;
+        for(var i=0;i<8;i++){
+            var c=(index-1)*8 + i;
+            if(c>=size){
+                break;
+            }
+            var li = "<li class='teshu'>" +
+                "<a href=''><img src='' /></a>" +
+                "<div>" +
+                "<h4>" + data[c].name + "</h4>" +
+                "<p>"+"￥"+"<span>" + data[c].price + "</span><span class='shop_span'>"+"库存:" + data[c].stock + "</span></p>" +
+                "</div> </li>";
+            ul = ul + li;
+        }
+        ul+='</ul>';
+        $(".preferential").append(ul);
+        return Pagesize;
     }
 
 }
@@ -47,7 +79,7 @@ function findType() {
                 $(".shop_body").append(all);
                 $(this.productCategories).each(
                     function () {
-                        var li = "<li><span class='icon-caret-right'></span><a href=''>" + this.name + "</a></li>";
+                        var li = "<li><span class='icon-caret-right'></span><a onclick='actionType("+this.id+")'>" + this.name + "</a></li>";
                         $(".shop_body ul."+id).append(li);
                     }
                 );
@@ -68,8 +100,78 @@ function check() {
     $(".shop_body").slideToggle(200);
 }
 
+
+
+ function size_shop() {
+     $.getJSON("productType/AllProduct.do",callback());
+     function callback(data) {
+         var jsonLength=0;
+         for (var i in data) {
+            size++;
+         }
+     }
+}
+function product(index){
+    var ReturnData;
+    $.ajaxSettings.async = false;
+    $.getJSON("productType/AllProduct.do",callback);
+    function callback(data) {
+        ReturnData =data;
+        $(".preferential ul").remove();
+        var ul='<ul>';
+        var size=0;
+        for (var j in data) {
+            size++;
+        }
+       Pagesize=size;
+        for(var i=0;i<8;i++){
+            var c=(index-1)*8 + i;
+            if(c>=size){
+                break;
+            }
+            var li = "<li class='teshu'>" +
+                "<a href=''><img src='' /></a>" +
+                "<div>" +
+                "<h4>" + data[c].name + "</h4>" +
+                "<p>"+"￥"+"<span>" + data[c].price + "</span><span class='shop_span'>"+"库存:" + data[c].stock + "</span></p>" +
+                "</div> </li>";
+            ul = ul + li;
+        }
+        ul+='</ul>';
+        $(".preferential").append(ul);
+        return Pagesize;
+    }
+
+}
+function action(){
+    $(".preferential ul").remove();
+    product(1)
+    $('.pagination').pagination({
+        jump:true,
+        total : Pagesize,
+        onJump: function (index) {
+            // product(index)
+            $(".preferential").eq(0).html(product(index));
+        }
+    });
+}
+
+function actionType(id){
+    $(".preferential ul").remove();
+    SelectProdutById(1,id);
+    $('.pagination').eq(0).pagination({
+        total : Pagesize,
+        onJump: function (index) {
+            $(".preferential").eq(0).html(SelectProdutById(index,id));
+        }
+    });
+}
+
+
 $(
     function () {
+        action();
+        size_shop();
         leftScroll();
         slide();
         findType();

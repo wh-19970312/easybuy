@@ -62,6 +62,8 @@ margin:-210px 0 0 -200px;
 #content .main .c_nav ul.img_nav li.man h3 {padding-left:107px;}
 #content .main .c_nav ul.img_nav li h3.h_hover { background:#debac9;padding:0; text-align:center;}
 
+.shop_span{font-size: 12px;color: black;}
+
 #content .main .preferential {clear:both; padding-top:40px; *padding-top:20px;}
 #content .main h1.qu {padding-left:37px; *padding-left:0px;}
 #content .main h1.qu a {float:right;display:block;*margin-top:-28px;line-height:14px; width:37px; font-size:12px; color:#FFF; font-weight:normal; background:#2b2220;}
