@@ -13,6 +13,8 @@ public class carts {
 
     private Date createtime;
 
+    private Integer isdelete;
+
     public Integer getId() {
         return id;
     }
@@ -51,5 +53,13 @@ public class carts {
 
     public void setCreatetime(Date createtime) {
         this.createtime = createtime;
+    }
+
+    public Integer getIsdelete() {
+        return isdelete;
+    }
+
+    public void setIsdelete(Integer isdelete) {
+        this.isdelete = isdelete;
     }
 }
