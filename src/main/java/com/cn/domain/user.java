@@ -1,6 +1,8 @@
 package com.cn.domain;
 
-public class user {
+import java.io.Serializable;
+
+public class user implements Serializable {
     private Integer id;
 
     private String loginname;
@@ -17,7 +19,29 @@ public class user {
 
     private String mobile;
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
+
     private Integer type;
+
+    private String address;
+
+    private String remark;
+
+
 
     public Integer getId() {
         return id;

@@ -2,14 +2,47 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/noteMapper.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cn/dao/noteMapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/cn/domain/note.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/adduser.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/backstagemain.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/changenews.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/changeorder.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/changereply.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/changeuser.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/css.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/css/layout.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/luara.left.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/nf.lightbox.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/style.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/detail.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/about_15.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/about_38.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/about_45.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/che.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/del.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/delCancel.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/delSure.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/dialog.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/endbj.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/images/jgwc.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/images/js.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/sh.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/shopt.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/images/top_22.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/NFLightBox.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/js/detail.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/js/index.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom1.0.1.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/jquery.luara.0.0.1.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/js/jqzoom.pack.1.0.1.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/shop.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/showallorders.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/shownews.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/shownote.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/showusers.jsp" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

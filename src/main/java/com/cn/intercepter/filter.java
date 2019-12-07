@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-
 @Controller
 public class filter implements HandlerInterceptor {
     @Override
@@ -20,6 +19,7 @@ public class filter implements HandlerInterceptor {
 //             response.sendRedirect("../index.html");
 //            return false;
         }else {
+
             return true;
         }
 

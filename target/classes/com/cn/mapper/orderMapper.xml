@@ -19,6 +19,23 @@
     from easybuy_order
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <select id="selectall" resultType="com.cn.domain.order">
+  SELECT a.*,b.quantity as quantity,d.name as name ,c.userName as username from easybuy_order a,easybuy_order_detail b,easybuy_user c,easybuy_product d
+  where a.userId=c.id and a.id=b.orderId and b.productId=d.id
+  </select>
+
+  <select id="selectorderby" resultType="com.cn.domain.order" parameterType="com.cn.domain.order">
+  select  a.*,b.userName as username  from  easybuy_order a,easybuy_user b where 1=1
+  <if test="id!=null">
+    and a.id = #{id} and a.userId=b.id
+  </if>
+  <if test="username!=''">
+    and b.userName = #{username}
+  </if>
+  </select>
+
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from easybuy_order
     where id = #{id,jdbcType=INTEGER}

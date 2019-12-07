@@ -15,6 +15,16 @@ public class carts {
 
     private Integer isdelete;
 
+    private product product;
+
+    public com.cn.domain.product getProduct() {
+        return product;
+    }
+
+    public void setProduct(com.cn.domain.product product) {
+        this.product = product;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -61,5 +71,18 @@ public class carts {
 
     public void setIsdelete(Integer isdelete) {
         this.isdelete = isdelete;
+    }
+
+    @Override
+    public String toString() {
+        return "carts{" +
+                "id=" + id +
+                ", userid=" + userid +
+                ", productid=" + productid +
+                ", ordernumber='" + ordernumber + '\'' +
+                ", createtime=" + createtime +
+                ", isdelete=" + isdelete +
+                ", product=" + product +
+                '}';
     }
 }

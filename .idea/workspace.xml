@@ -6,13 +6,113 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c59b21ef-cd9d-4bff-bea7-fce4fd799295" name="Default Changelist" comment="4">
+    <list default="true" id="c59b21ef-cd9d-4bff-bea7-fce4fd799295" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/noteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/controller/cartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/controller/newController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/noteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/adduser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backstagemain.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changenews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changeorder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changereply.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/changeuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/luara.left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/nf.lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/about_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/about_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/about_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/che.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/delCancel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/delSure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/endbj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/shopt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/top_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/carts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.luara.0.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/showallorders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shownews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shownote.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/showusers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/776cf37f-b4d1-49ed-9b15-3a71754929b7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/776cf37f-b4d1-49ed-9b15-3a71754929b7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/cartsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/cartsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/domain/carts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/cartsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/cartsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/orderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/com/cn/spring/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/com/cn/spring/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/cartsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/cartsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/domain/carts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/carts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/domain/order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/domain/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/domain/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/domain/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/cartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/cartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/services/newService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/services/newService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cn/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cn/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/controller/newsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/controller/newsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/dao/newsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/newsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/dao/orderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/orderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/dao/productMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/productMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/dao/userMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/dao/userMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/domain/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/domain/product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/domain/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/intercepter/filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/intercepter/filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/mapper/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/orderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/mapper/productMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/productMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/services/Impl/newServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/services/Impl/newServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/services/newService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/services/newService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/spring/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/spring/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/utils/DateConverters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/utils/DateConverters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/controller/newsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/controller/newsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/newsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/newsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/orderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/orderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/productMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/productMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/userMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/dao/userMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/user.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/domain/user.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/intercepter/filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/intercepter/filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/orderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/orderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/productMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/productMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/Impl/newServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/Impl/newServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/newService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/services/newService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/spring/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/spring/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/utils/DateConverters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/com/cn/utils/DateConverters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/generationConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/generationConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmDemo/WEB-INF/classes/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,28 +158,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Resources/generationConfig.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" selection-start-line="24" selection-end-line="25" />
+            <state relative-caret-position="-2067">
+              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/cartService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            <state relative-caret-position="361">
+              <caret line="86" column="70" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -87,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="995">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,19 +202,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="1386">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/order_detailMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="231">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5643" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/cartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -119,8 +249,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -134,41 +265,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cn/Generator.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/newService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/newsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/product_categoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/product_type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/product_category.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cn/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_categoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_typeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/product_typeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/public.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/pintuer.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/index.css" />
-        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.pagination.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Cart.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/detail.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/detail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/carts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/cartsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/cartsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/services/cartService.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/generationConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/carts.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Cart.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/orderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/Resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/spring/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/newService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showusers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shownote.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shownews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showallorders.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/changeuser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/changereply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/changeorder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/changenews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/backstagemain.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/adduser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/user.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/noteMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/newController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cn/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/public.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/controller/cartController.java" />
       </list>
     </option>
   </component>
@@ -199,8 +346,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="y" value="35" />
+    <option name="x" value="-254" />
+    <option name="y" value="65" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -216,6 +363,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,34 +404,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -295,7 +456,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Resources/com/cn/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -305,14 +466,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\images" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\css" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\js" />
-      <recent name="F:\SpringMVC\ssmDemo\src\main\Resources\com\cn\spring" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -320,9 +479,12 @@
       <recent name="com.cn.utils" />
       <recent name="com.cn" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SpringMVC\ssmDemo\src\main\Resources\com\cn\mapper" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp" />
+      <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\images" />
       <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\js" />
+      <recent name="F:\SpringMVC\ssmDemo\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Generator">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.211">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cn.Generator" />
       <module name="ssmDemo" />
@@ -364,7 +526,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssmDemo" />
       <extension name="coverage">
         <pattern>
@@ -374,7 +536,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cn" />
       <option name="MAIN_CLASS_NAME" value="com.cn.test" />
-      <option name="METHOD_NAME" value="practice" />
+      <option name="METHOD_NAME" value="SetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.TestLiist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.test" />
+      <option name="METHOD_NAME" value="TestLiist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.carts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.test" />
+      <option name="METHOD_NAME" value="carts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,14 +650,18 @@
     <list>
       <item itemvalue="Application.Generator" />
       <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.test.practice" />
+      <item itemvalue="JUnit.test.carts" />
+      <item itemvalue="JUnit.test.SetTest" />
+      <item itemvalue="JUnit.test.TestLiist" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.211" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.TestLiist" />
+        <item itemvalue="JUnit.test.SetTest" />
+        <item itemvalue="JUnit.test.carts" />
         <item itemvalue="Application.Generator" />
         <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.test.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +694,11 @@
       <workItem from="1575073653989" duration="1805000" />
       <workItem from="1575076252677" duration="12653000" />
       <workItem from="1575247701428" duration="17691000" />
-      <workItem from="1575332880593" duration="11559000" />
+      <workItem from="1575332880593" duration="22047000" />
+      <workItem from="1575465929842" duration="29000" />
+      <workItem from="1575618055824" duration="5998000" />
+      <workItem from="1575632568821" duration="6558000" />
+      <workItem from="1575678093061" duration="12443000" />
     </task>
     <task id="LOCAL-00001" summary="easyBuy">
       <created>1574838596486</created>
@@ -561,31 +763,50 @@
       <option name="project" value="LOCAL" />
       <updated>1575354596256</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="4">
+      <created>1575355355334</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575355355334</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_practice - 2019.11.28 at 14h 02m 45s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_carts - 2019.12.06 at 15h 51m 44s.xml">
+      <configuration name="test.carts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_practice - 2019.11.28 at 14h 06m 49s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_SetTest - 2019.12.06 at 17h 22m 24s.xml">
+      <configuration name="test.SetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_practice - 2019.11.28 at 14h 13m 04s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_TestLiist - 2019.12.06 at 18h 07m 41s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_practice - 2019.11.28 at 14h 16m 01s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_SetTest - 2019.12.06 at 21h 27m 01s.xml">
+      <configuration name="test.SetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_practice - 2019.11.28 at 14h 17m 47s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_TestLiist - 2019.12.07 at 08h 24m 33s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_practice - 2019.11.28 at 14h 27m 20s.xml">
-      <configuration name="test.practice" configurationId="JUnit" />
+    <history-entry file="test_TestLiist - 2019.12.07 at 08h 30m 08s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_TestLiist - 2019.12.07 at 08h 34m 27s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_TestLiist - 2019.12.07 at 08h 35m 00s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_TestLiist - 2019.12.07 at 08h 42m 52s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_TestLiist - 2019.12.07 at 09h 18m 10s.xml">
+      <configuration name="test.TestLiist" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111719000" />
+    <option name="totallyTimeSpent" value="147235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,9 +819,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26742628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25067025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -608,7 +828,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.9560117" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.9560117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,7 +837,7 @@
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.55051243" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.9560117" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.9560117" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32844576" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -628,7 +848,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.10991957" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.042895444" />
+      <window_info anchor="right" id="Database" order="5" weight="0.39678285" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
     </layout>
@@ -649,328 +869,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/news.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/user_address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/order_detail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/user_address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/product_categoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/newsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="191" column="17" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        <state relative-caret-position="33">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/newsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_categoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/product_typeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/product_typeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery.pagination.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/utils/DateConverters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/home.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#23#29#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3564">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/pintuer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21846">
-          <caret line="662" column="28" selection-start-line="662" selection-start-column="28" selection-end-line="662" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/product_type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/product_category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/newService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.jqzoom1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jqzoom.pack.1.0.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/user_addressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -981,55 +917,318 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/user_addressMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/cartService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/orderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#span#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#strong#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1371#1377#0" expanded="true" />
-            <element signature="e#1377#1383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Resources/generationConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/Generator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/userMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        <state relative-caret-position="500">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/css.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/luara.left.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.luara.0.0.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/cartsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-transfer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/newService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showusers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shownews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="96" column="74" lean-forward="true" selection-start-line="96" selection-start-column="74" selection-end-line="96" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shownote.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1894">
+          <caret line="96" column="74" selection-start-line="96" selection-start-column="74" selection-end-line="96" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showallorders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="99" column="74" lean-forward="true" selection-start-line="99" selection-start-column="74" selection-end-line="99" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="92" column="74" lean-forward="true" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/noteMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/newServicesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2264#2265#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2356#2357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changenews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3267">
+          <caret line="99" column="74" selection-start-line="99" selection-start-column="74" selection-end-line="99" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3267">
+          <caret line="99" column="74" selection-start-line="99" selection-start-column="74" selection-end-line="99" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changereply.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3267">
+          <caret line="99" column="74" selection-start-line="99" selection-start-column="74" selection-end-line="99" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backstagemain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="92" column="74" selection-start-line="92" selection-start-column="74" selection-end-line="92" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adduser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/domain/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/noteMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/newController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/spring/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/productMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/dao/product_typeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/mapper/productMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/newsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/intercepter/filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/productServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/services/Impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/productTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="86" column="70" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2067">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/com/cn/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5643" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/controller/cartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>

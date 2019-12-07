@@ -15,7 +15,7 @@ public interface newsMapper {
 
     news selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(news record);
+    void updateByPrimaryKeySelective(news record);
 
     int updateByPrimaryKey(news record);
 }

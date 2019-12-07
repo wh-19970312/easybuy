@@ -2,8 +2,10 @@ package com.cn.dao;
 
 import com.cn.domain.order;
 
+import java.util.List;
+
 public interface orderMapper {
-    int deleteByPrimaryKey(Integer id);
+    void deleteByPrimaryKey(Integer id);
 
     int insert(order record);
 
@@ -11,7 +13,13 @@ public interface orderMapper {
 
     order selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(order record);
+    void updateByPrimaryKeySelective(order record);
+
 
     int updateByPrimaryKey(order record);
+
+    List<order> selectall();
+
+    List<order> selectorderby(order order);
+
 }

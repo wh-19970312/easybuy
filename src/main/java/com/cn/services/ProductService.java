@@ -3,6 +3,7 @@ package com.cn.services;
 import com.cn.domain.product;
 import com.cn.domain.product_type;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public interface ProductService {
@@ -10,4 +11,5 @@ public interface ProductService {
     List<product> selectProduct(Integer id);
     List<product> selectAll();
     product selectById(Integer id);
+    List<product> selectByList(HttpServletRequest request);
 }

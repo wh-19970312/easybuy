@@ -100,15 +100,20 @@ function check() {
     $(".shop_body").slideToggle(200);
 }
 
+function click() {
+    $(".recent_body").slideToggle(200);
+}
 
 
  function size_shop() {
-     $.getJSON("productType/AllProduct.do",callback());
+     $.getJSON("productType/recentProduct.do",callback());
      function callback(data) {
-         var jsonLength=0;
-         for (var i in data) {
-            size++;
-         }
+         $(data).each(
+           function () {
+               var li = "<li><span class='icon-caret-right'></span><a href='detail.html?id='"+this.id+">" + this.name + "</a></li>"
+               $(".recent_body ul").append(li);
+           }
+         )
      }
 }
 function product(index){

@@ -21,6 +21,17 @@
     from easybuy_user
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <select id="selectall" resultType="com.cn.domain.user">
+  select s1.*,s2.address,s2.remark FROM easybuy_user as s1,easybuy_user_address as s2 where s1.id=s2.userId
+
+  </select>
+
+  <select id="selectbyidcard" resultType="com.cn.domain.user" parameterType="java.lang.String">
+  SELECT * from easybuy_user where identityCode = #{identityCode}
+  </select>
+
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from easybuy_user
     where id = #{id,jdbcType=INTEGER}

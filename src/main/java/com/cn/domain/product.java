@@ -100,4 +100,20 @@ public class product {
     public void setIsdelete(Integer isdelete) {
         this.isdelete = isdelete;
     }
+
+    @Override
+    public String toString() {
+        return "product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", stock=" + stock +
+                ", categorylevel1id=" + categorylevel1id +
+                ", categorylevel2id=" + categorylevel2id +
+                ", categorylevel3id=" + categorylevel3id +
+                ", filename='" + filename + '\'' +
+                ", isdelete=" + isdelete +
+                '}';
+    }
 }

@@ -8,7 +8,12 @@
     <result column="orderNumber" jdbcType="VARCHAR" property="ordernumber" />
     <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
     <result column="isDelete" jdbcType="INTEGER" property="isdelete" />
+    <association property="product" javaType="carts" column="productId" select="com.cn.dao.productMapper.selectByPrimaryKey"></association>
   </resultMap>
+
+  <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+     select * from eassybuy_carts where userId=#{id} and isDelete=0;
+  </select>
   <sql id="Base_Column_List">
     id, userId, productId, orderNumber, createTime, isDelete
   </sql>

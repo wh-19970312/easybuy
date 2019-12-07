@@ -13,6 +13,15 @@
     <result column="fileName" jdbcType="VARCHAR" property="filename" />
     <result column="isDelete" jdbcType="INTEGER" property="isdelete" />
   </resultMap>
+
+  <select id="selectByList" resultMap="BaseResultMap">
+     select * from easybuy_product where id in
+    <foreach collection="list" item="id" index="index"
+             open="(" close=")" separator=",">
+      #{id}
+    </foreach>
+  </select>
+
   <select id="selectByAll" resultMap="BaseResultMap">
     select  * from  easybuy_product where 1=1;
   </select>
